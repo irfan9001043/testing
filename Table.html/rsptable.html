@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/bootstrap.css">
+    <title>responsive table</title>
+    <style>
+        .imgTag {
+            width:30px;
+            height:30px;
+            border-radius: 50%;
+         }
+         .tdImgTag{
+            text-align: center;
+         }
+         <style type="text/css">
+            body{
+                padding-top:20px;
+            }
+    </style>
+
+</head>
+<body>
+<div class="container  mb-3">
+    <h2>table striped</h2>
+    <p>table stripet table is best in  </p>
+    <div class="table-responsive-sm">
+    <table class="table table-striped table-bordered table-hover">
+        <thead class="bg-dark text-white">
+            <tr>
+                <th>image</th>
+                <th>firstname</th>
+                <th>lastname</th>
+                <th>email</th>
+                <th>action</th> 
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                
+                <td class="tdImgTag">
+                    <img class="imgTag" src="/responsiveMenu/images/menu.jpg" alt="image" >
+                </td>
+                <td>irfan1</td>
+                <td>khan</td>
+                <td>irfam@gmail.com</td>
+                <td> 
+                   <button class="btn btn-primary btn-sm" title="Edit"  data-toggle="modal" data-target="#modalEdit">
+                        <i class="fa fa-pen-to-square "></i> 
+                   </button>
+                   <button class="btn btn-danger btn-sm" title="delete" data-toggle="modal" data-target="#modalDelete">
+                       <i class="fa fa-trash"></i>
+                   </button>
+                   
+                </td>
+            </tr>
+            <tr>
+                
+                <td class="tdImgTag">
+                    <img class="imgTag" src="/responsiveMenu/images/a.jpg" alt="image">
+                </td>
+                <td>irfan2</td>
+                <td>khan</td>
+                <td>irfam@gmail.com</td>
+                <td>
+                   <button class="btn btn-primary btn-sm" title="Edit"  data-toggle="modal" data-target="#modalEdit">
+                        <i class="fa fa-pen-to-square "></i> 
+                   </button>
+                   <button class="btn btn-danger btn-sm" title="delete"  data-toggle="modal" data-target="#modalDelete">
+                       <i class="fa fa-trash"></i>
+                   </button>
+                </td>
+                
+            </tr>
+            <tr>
+                <td class="tdImgTag">
+                    <img class="imgTag" src="/responsiveMenu/images/c.jpg" alt="image">
+
+                </td>
+                <td>irfan3</td>
+                <td>khan</td>
+                <td>irfam@gmail.com</td>
+                <td>
+                    <button class="btn btn-primary btn-sm" title="Edit" data-toggle="modal" data-target="#modalEdit">
+                         <i class="fa fa-pen-to-square "></i> 
+                    </button>
+                    <button class="btn btn-danger btn-sm" title="delete" data-toggle="modal" data-target="#modalDelete">
+                        <i class="fa fa-trash"></i>
+                    </button>
+                 </td>
+            </tr>
+            <tr>
+                <td class="tdImgTag">
+                    <img class="imgTag" src="/responsiveMenu/images/n.jpg" alt="image">
+                </td>
+                <td>irfan4</td>
+                <td>khan</td>
+                <td>irfam@gmail.com</td>
+                <td>
+                    <button class="btn btn-primary btn-sm" title="Edit" data-toggle="modal" data-target="#modalEdit">
+                         <i class="fa fa-pen-to-square "></i> 
+                    </button>
+                    <button class="btn btn-danger btn-sm" title="delete" data-toggle="modal" data-target="#modalDelete">
+                        <i class="fa fa-trash"></i>
+                    </button>
+                 </td>
+            </tr>
+            <tr>
+                <td class="tdImgTag">
+                    <img class="imgTag" src="/responsiveMenu/images/l.jpg" alt="image">
+                </td>
+                <td>irfan5</td>
+                <td>khan</td>
+                <td>irfam@gmail.com</td>
+                <td>
+                    <button class="btn btn-primary btn-sm" title="Edit" data-toggle="modal" data-target="#modalEdit">
+                         <i class="fa fa-pen-to-square "></i> 
+                    </button>
+                    <button class="btn btn-danger btn-sm" title="delete" data-toggle="modal" data-target="#modalDelete">
+                        <i class="fa fa-trash"></i>
+                    </button>
+                 </td>
+            </tr>
+            <tr>
+                <td class="tdImgTag">
+                    <img class="imgTag" src="/responsiveMenu/images/k.jpg" alt="image">
+                </td>
+                <td>irfan6</td>
+                <td>khan</td>
+                <td>irfam@gmail.com</td>
+                <td>
+                    <button class="btn btn-primary btn-sm" title="Edit" data-toggle="modal" data-target="#modalEdit">
+                         <i class="fa fa-pen-to-square "></i> 
+                    </button>
+                    <button class="btn btn-danger btn-sm" title="delete" data-toggle="modal" data-target="#modalDelete">
+                        <i class="fa fa-trash"></i>
+                    </button>
+                 </td>
+            </tr>
+            <tr>
+                <td class="tdImgTag">
+                    <img class="imgTag" src="/responsiveMenu/images/d.jpg" alt="image">
+                </td>
+                <td>irfan7</td>
+                <td>khan</td>
+                <td>irfam@gmail.com</td>
+                <td>
+                    <button class="btn btn-primary btn-sm" title="Edit" data-toggle="modal" data-target="#modalEdit">
+                         <i class="fa fa-pen-to-square "></i> 
+                    </button>
+                    <button class="btn btn-danger btn-sm" title="delete" data-toggle="modal" data-target="#modalDelete">
+                        <i class="fa fa-trash"></i>
+                    </button>
+                 </td>
+            </tr>
+            <tr>
+                <td class="tdImgTag">
+                    <img class="imgTag" src="/responsiveMenu/images/j.jpg" alt="image">
+
+                </td>
+                <td>irfan8</td>
+                <td>khan</td>
+                <td>irfam@gmail.com</td>
+                <td>
+                    <button class="btn btn-primary btn-sm" title="Edit" data-toggle="modal" data-target="#modalEdit">
+                         <i class="fa fa-pen-to-square "></i> 
+                    </button>
+                    <button class="btn btn-danger btn-sm" title="delete" data-toggle="modal" data-target="#modalDelete">
+                        <i class="fa fa-trash"></i>
+                    </button>
+                 </td>
+            </tr>
+            <tr>
+                <td class="tdImgTag">
+                    <img class="imgTag" src="/responsiveMenu/images/f.jpg" alt="image">
+
+                </td>
+                <td>irfan9</td>
+                <td>khan</td>
+                <td>irfam@gmail.com</td>
+                <td>
+                    <button class="btn btn-primary btn-sm" title="Edit" data-toggle="modal" data-target="#modalEdit">
+                         <i class="fa fa-pen-to-square "></i> 
+                    </button>
+                    <button class="btn btn-danger btn-sm" title="delete" data-toggle="modal" data-target="#modalDelete">
+                        <i class="fa fa-trash"></i>
+                    </button>
+                 </td>
+            </tr>
+            <tr>
+                <td class="tdImgTag">
+                    <img class="imgTag" src="/responsiveMenu/images/e.jpg" alt="image">
+                </td>
+                <td>irfan10</td>
+                <td>khan</td>
+                <td>irfan@gmail.com</td>
+                <td>
+                    <button class="btn btn-primary btn-sm" title="Edit" data-toggle="modal" data-target="#modalEdit">
+                         <i class="fa fa-pen-to-square "></i> 
+                    </button>
+                    <button class="btn btn-danger btn-sm" title="delete" data-toggle="modal" data-target="#modalDelete">
+                        <i class="fa fa-trash"></i>
+                    </button>
+                 </td>
+            </tr>
+
+        </tbody>
+
+    </table>
+    </div>
+</div>
+
+<div class="container">
+    
+    <div class="modal" id="modalEdit">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title">contect form</h4>
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+          </div>
+          <div class="modal-body">
+              
+              <form>
+                  <div class="row">
+                      <div class="col-sm-6">
+                          <label class="form-label">Username</label>
+                          <input type="text" class="form-control">
+                      </div>
+                      <div class="col-sm-6">
+                          <label class="form-label">Name</label>
+                          <input type="text" class="form-control">
+                      </div>
+                      <div class="col-sm-6">
+                          <label class="form-label">Number</label>
+                          <input type="number" class="form-control">
+                      </div>
+                      <div class="col-sm-6">
+                          <label class="form-label">Email</label>
+                          <input type="Email" class="form-control">
+                      </div>
+                      <div class="col-md-12" rows="5">
+                          <label class="form-label">Massage</label>
+                          <textarea type="massage" class="form-control"></textarea>
+                      </div>
+                  </div>
+              </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-light" data-dismiss="modal">cancel</button>
+            <button type="button" class="btn btn-primary" data-dismiss="modal">Save</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+    <div class="modal" id="modalDelete">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title">delete contact</h4>
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <div class="modal-body">
+              are you sure you want to delete this contact 
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-light" data-dismiss="modal">cancel</button>
+              <button type="button" class="btn btn-da" data-dismiss="modal">delete</button>
+            </div>
+          </div>
+        </div>
+      </div>
+</div>   
+    
+</body>
+</html>
